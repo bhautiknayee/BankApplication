@@ -19,4 +19,3 @@ By working with this project, you’ll learn:
 - How to secure your services with **OAuth2**.
 - How to monitor and trace errors using **Prometheus**, **Grafana**, and **Zipkin**.
 
-Hey
