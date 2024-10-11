@@ -8,11 +8,11 @@
 		<version>3.3.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.easyBytes</groupId>
+	<groupId>com.Bank</groupId>
 	<artifactId>eurekaserver</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>eurekaserver</name>
-	<description>service discovery agent for Easy bank Microservices</description>
+	<description>Demo project for Spring Boot for eurekaserver</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -67,6 +67,16 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>jib-maven-plugin</artifactId>
+				<version>3.4.2</version>
+				<configuration>
+					<to>
+						<image>8140660638/${project.artifactId}:s8</image>
+					</to>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
